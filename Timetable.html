@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        table,td,th{
+            text-align: center;
+            border: 2px solid black;
+            
+        }
+        table{
+            width: 800px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+        tr:nth-child(even){
+            background-color:chartreuse;
+        }
+        tr:nth-child(odd){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; background-color:aqua">TIME TABLE OF IT-B</h1>
+    <table>
+        <tr>
+        <th>DAY/HR</th>
+        <th>10.30 AM to 11.20 AM</th><br>
+        <th>11.20 AM to 12.10 PM</th>
+        <th>12.10 PM to 01.00 PM</th>
+        <th>01.00 PM to 2.15PM</th>
+        <th>02.15 PM to 03.05 PM</th>
+        <th>03.05 PM to 03.55 PM</th>
+        <th>03.55 PM to 04.45 PM</th>
+    </tr>
+        <tr>
+        <td>MON</td>
+        <td colspan="3">PDS Lab</td>
+        <td rowspan="5">LUNCH</td>
+        <td>CNS</td>
+        <td>OB</td>
+        <td>OE</td>
+        </tr>
+        <tr>
+            <td>TUES</td>
+            <td>WT</td>
+            <td>OB</td>
+            <td>CNS</td>
+            <td>INT-1</td>
+            <td>DWDM</td>
+            <td>OE</td>
+            </tr>
+        <tr>
+            <td>WED</td>
+            <td>CNS</td>
+            <td>OB</td>
+            <td>INT-1</td>
+            <td>WT</td>
+            <td>PE</td>
+            <td>OE</td>
+            </tr>
+        <tr>
+            <td>THURS</td>
+            <td colspan="3">DWDM Lab</td>
+            <td>WT</td>
+            <td>PE</td>
+            <td>INT-1</td>
+            </tr>
+        <tr>
+            <td>FRI</td>
+            <td colspan="3">WT Lab</td>
+            <td>DWDM</td>
+            <td>DWDM</td>
+            <td>LIB</td>
+            </tr>
+    </table>
+</body>
+</html>
